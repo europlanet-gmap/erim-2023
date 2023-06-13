@@ -6,4 +6,4 @@ Programme available at: https://www.europlanet-society.org/erim-2023-programme/
 
 ## Notebooks
 
-Exemplary notebooks for using GMAP VA web services available on [notebooks](./notebooks.)
+Exemplary notebooks for using GMAP VA web services available on [notebooks](./notebooks/)
