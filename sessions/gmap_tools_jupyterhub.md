@@ -70,19 +70,27 @@ and the definition of the containers are in the project's GitHub repository,
 
 Essentially, all we need to do is to download the docker image,
 > ```bash
-> docker pull gmap/isis
+> docker pull gmap/isis:jupyter
 > ```
+
+This will take some time, it will download a couple of gigabytes and expand that into a ~5 gigabytes container image.
 
 Then run it, binding container's port `8000` to host's `8000` and the directory with your data (for instance),
 > ```bash
 > docker run --name "jupyter-isis" -p "8000:8000" -v "/path/to/data:/home/jovyan/data" gmap/isis
 > ```
 
-Copy the URL from the message
 You can then open a new browser window and go to `http://localhost:8000`, you should see a Jupyter-Lab server.
+If necessary, copy the "token" for user authentication from the log message printed by "jupyter-isis" in the terminal.
 
+In Jupyter-Lab (or Notebook) interface, the left sidebar provides a view of the filesystem, we should see a `data` folder,
+it is the sharing folder with "`/path/to/data`".
 
-> Remember you want (if using 
+Once again, in this environment you'll find the software packages mentioned previously, ISIS, ASP, GDAL, Python libraries,
+and some other command-line tools such as `git` and `vim`.
+
+If you new to Jupyter Lab/Notebook, please have a look at [https://docs.jupyter.org/](https://docs.jupyter.org/).
+
 
 #### Dependencies
 [ISISDATA]: https://github.com/DOI-USGS/ISIS3/blob/dev/README.md#The-ISIS-Data-Area
@@ -90,6 +98,11 @@ You can then open a new browser window and go to `http://localhost:8000`, you sh
 ISIS relies on [ISISDATA][] to do many of its tasks but the multi-gigabyte dataset is *not* included in the container.
 The user must first download "ISIS-DATA" (as explained in [https://github.com/DOI-USGS/ISIS3](https://github.com/DOI-USGS/ISIS3) 
 and *share* it with the Docker container.
+
+
+### Example 
+
+Exemplify with Mars-Craters.
 
 
 ## GMAP Jupyter-Hub
