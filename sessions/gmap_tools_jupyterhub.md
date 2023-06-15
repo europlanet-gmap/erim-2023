@@ -18,7 +18,7 @@ Roadmap:
 [ISIS]: https://github.com/DOI-USGS/ISIS3
 [ASP]: https://github.com/NeoGeographyToolkit/StereoPipeline
 [GDAL]: https://gdal.org/
-[docker-isis]: https://github.com/europlanet-gmap/docker-isis3
+[docker-isis3]: https://github.com/europlanet-gmap/docker-isis3
 
 One of the challenges we have as planetary data scientists is the setting up of a data processing environment.
 The challenge regards installation and configuration of tools that demand some level of technical computing knowledge,
@@ -53,11 +53,44 @@ interface -- today's standard in many data analysis environments. The following 
   * _and others_
 
 Such containers can be found, ready-to-use, in GMAP's DockerHub repository. And their definitions (ie, Dockerfiles),
-for eventual customizations, in GMAP's GitHub [docker-isis][] public repository.
+for eventual customizations, in GMAP's GitHub [docker-isis3][] public repository.
 
-### How to use it
+### How to use 
+[gmap/isis]: https://hub.docker.com/r/gmap/isis
 
-TBD
+The Jupyter Lab/Notebook Docker images are ready to be used, when launched, the container starts a Jupyter-Lab server
+at port "8000" (default) through which the user can access environment (with the above-mentioned software installed).
+
+The images are provided at GMAP' Dockerhub [gmap/isis][] repository, 
+[https://hub.docker.com/r/gmap/isis](https://hub.docker.com/r/gmap/isis), 
+and the definition of the containers are in the project's GitHub repository,
+[docker-isis3][], [https://github.com/europlanet-gmap/docker-isis3](https://github.com/europlanet-gmap/docker-isis3).
+
+> Follow the instructions (aka, *docs*) in Git's repository to *build* and *run* your images.
+
+Essentially, all we need to do is to download the docker image,
+> ```bash
+> docker pull gmap/isis
+> ```
+
+Then run it, binding container's port `8000` to host's `8000` and the directory with your data (for instance),
+> ```bash
+> docker run --name "jupyter-isis" -p "8000:8000" -v "/path/to/data:/home/jovyan/data" gmap/isis
+> ```
+
+Copy the URL from the message
+You can then open a new browser window and go to `http://localhost:8000`, you should see a Jupyter-Lab server.
+
+
+> Remember you want (if using 
+
+#### Dependencies
+[ISISDATA]: https://github.com/DOI-USGS/ISIS3/blob/dev/README.md#The-ISIS-Data-Area
+
+ISIS relies on [ISISDATA][] to do many of its tasks but the multi-gigabyte dataset is *not* included in the container.
+The user must first download "ISIS-DATA" (as explained in [https://github.com/DOI-USGS/ISIS3](https://github.com/DOI-USGS/ISIS3) 
+and *share* it with the Docker container.
+
 
 ## GMAP Jupyter-Hub
 
