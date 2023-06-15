@@ -53,7 +53,7 @@ interface -- today's standard in many data analysis environments. The following 
   * _and others_
 
 Such containers can be found, ready-to-use, in GMAP's DockerHub repository. And their definitions (ie, Dockerfiles),
-for eventual customizations, in GMAP's GitHub [docker-isis3][] public repository.
+for eventual customizations, in GMAP's GitHub [docker-isis][] public repository.
 
 ### How to use it
 
