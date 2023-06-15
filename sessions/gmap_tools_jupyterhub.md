@@ -77,7 +77,7 @@ This will take some time, it will download a couple of gigabytes and expand that
 
 Then run it, binding container's port `8888` to host's `8888` and the directory with your data (for instance),
 > ```bash
-> docker run --name "jupyter-isis" -p "8888:8888" -v "/path/to/data:/home/jovyan/data" gmap/isis:jupyter
+> docker run --rm --name "jupyter-isis" -p "8888:8888" -v "/path/to/data:/home/jovyan/data" gmap/isis:jupyter
 > ```
 
 You can then open a new browser window and go to `http://localhost:8000`, you should see a Jupyter-Lab server.
