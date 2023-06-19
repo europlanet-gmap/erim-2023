@@ -8,4 +8,4 @@ Programme available at: https://www.europlanet-society.org/erim-2023-programme/
 
 Exemplary notebooks for using GMAP VA web services are available in, or linked from, respective session directories:
 * [session1_services](./session1_services/)
-* [session2_tools](./session1_tools/)
+* [session2_tools](./session2_tools/)
