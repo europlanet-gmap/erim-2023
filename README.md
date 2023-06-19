@@ -8,7 +8,7 @@ Programme available at: https://www.europlanet-society.org/erim-2023-programme/
 
 ### SESSION 1 (1.5h - 9:00-10:30 )
 
-* 09:00-09:30 - Introduction to GMAP (Riccardo Pozzoban, UNIPD) + Winter School 2021-2023 summary & feedback
+* 09:00-09:30 - Introduction to GMAP (Riccardo Pozzobon, UNIPD) + Winter School 2021-2023 summary & feedback
 * 09:30-10:00 - GMAP Tools - Jupyter & base mapping (Carlos Brandt, CU)
 * 10:00-10:30 - GMAP Tools - Data Portal (Carlos Brandt, CU)
 
