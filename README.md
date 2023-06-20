@@ -8,7 +8,7 @@ Programme available at: https://www.europlanet-society.org/erim-2023-programme/
 
 ### SESSION 1 (1.5h - 9:00-10:30 )
 
-* [session1_services](./session1_services/)
+See: [session1_services](./session1_services/)
 
 * 09:00-09:30 - Introduction to GMAP (Riccardo Pozzobon, UNIPD) + Winter School 2021-2023 summary & feedback
 * 09:30-10:00 - GMAP Tools - Jupyter & base mapping (Carlos Brandt, CU)
@@ -16,7 +16,7 @@ Programme available at: https://www.europlanet-society.org/erim-2023-programme/
 
 ### SESSION 2 (1.5h - 11:00 - 12:30 )
 
-* [session2_tools](./session2_tools/)
+ See: [session2_tools](./session2_tools/)
 
 * 11:00 - 11:45 - Community Mapping Workshop & presentations
   * Ilaria Di Pietro (ASI)
