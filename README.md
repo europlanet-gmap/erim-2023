@@ -4,6 +4,8 @@ GMAP Materials for the 2023 Europlanet [ERIM Workshop](https://www.europlanet-so
 
 Programme available at: https://www.europlanet-society.org/erim-2023-programme/
 
+For additional relevan material, please see [https://github.com/europlanet-gmap/winter-school-2023](https://github.com/europlanet-gmap/winter-school-2023), as well as [https://www.planetarymapping.eu](https://www.planetarymapping.eu) (2021-2023 GMAP Winter School editions).
+
 ## Schedule
 
 ### SESSION 1 (1.5h - 9:00-10:30 )
