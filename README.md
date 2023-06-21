@@ -21,7 +21,7 @@ See: [session1_services](./session1_services/)
  See: [session2_tools](./session2_tools/)
 
 * 11:00 - 11:45 - Community Mapping Workshop & presentations
-  * Ilaria Di Pietro (ASI)
+  * Ilaria Di Pietro (ASI) - [presentation](https://zenodo.org/record/8065760) on Zenodo
   * Beatrice Baschetti (UNIPD/INAF)
   * Nicole Costa (UNIPD)
   * Yuqi Qian: (UHK)
