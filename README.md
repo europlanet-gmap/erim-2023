@@ -12,7 +12,7 @@ For additional relevan material, please see [https://github.com/europlanet-gmap/
 
 See: [session1_services](./session1_services/)
 
-* 09:00-09:30 - Introduction to GMAP (Riccardo Pozzobon, UNIPD) + Winter School 2021-2023 summary & feedback
+* 09:00-09:30 - Introduction to GMAP (Riccardo Pozzobon, UNIPD) + Winter School 2021-2023 summary & feedback - see also [here](https://aprossi.eu/content/gmap/).
 * 09:30-10:00 - GMAP Tools - Jupyter & base mapping (Carlos Brandt, CU)
 * 10:00-10:30 - GMAP Tools - Data Portal (Carlos Brandt, CU)
 
