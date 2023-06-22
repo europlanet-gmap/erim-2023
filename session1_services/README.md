@@ -2,5 +2,5 @@
 
 ## Notebooks
 
-* GMAP Jupyter Hub - [gmap_tools_jupyterhub.md](gmap_tools_jupyterhub.md)
+* GMAP Jupyter Hub - [gmap_services_overview.md](gmap_services_overview.md)
 * Basic example of planetary / isis data handling on (any, or GMAP) Jupyter Hub - [planetary_data_isis.ipynb](planetary_data_isis.ipynb)
