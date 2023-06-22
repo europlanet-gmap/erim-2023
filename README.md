@@ -28,7 +28,7 @@ See: [session1_services](./session1_services/)
 
 * 11:45-12:30 tool demos Q&A
   * Mappy Demo (Riccardo Pozzobon, UNIPD)
-  * OpenCraterTool (Thomas Heyerm WWU)
+  * OpenCraterTool (Thomas Heyer, WWU)
   * Radar viz/analysis tools / Explore H2020 (Giacomo Nodjoumi, CU)
 
 ## Notebooks
